@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animated</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=EB+Garamond:wght@700&family=Kanit&family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=Zen+Antique&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/47929a4c3f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">Folio<b>.</b></div>
+            <ul class="navItems">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">BLOG</a></li>
+            </ul>
+            <div class="links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </nav>
+
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>Hi <span class="multiText"></span></h1>
+                <p>The best preparation for tomorrow is doing your best today.</p>
+                <div class="btns">
+                    <button>>-<</button>
+                    <button>ToT</button>
+                </div>
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="https://media.discordapp.net/attachments/500205960824881163/1049296489417015316/C0339B6F-4218-4731-9678-E65FCFC895B3.png"  id="splash">
+                    <img src="https://media.discordapp.net/attachments/962325817319387166/1049223525145255976/63ED8C85-E803-43C9-B14E-61C58BACEBBC.png?width=357&height=476">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText",{
+            strings : ["Turbo","Rangers","MY GOD"],
+            loop : true,
+            typeSpeed : 100,
+            backSpeed : 80,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
